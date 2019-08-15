@@ -7,7 +7,9 @@ h5,
 h6 {
   font-family: "Lato", sans-serif
 }
-
+.welcome{
+    font-size: 4rem;
+}
 .w3-bar,
 h1,
 button {
@@ -48,3 +50,9 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+@media only screen and (max-width: 500px) {
+    .welcome{
+        font-size: 3rem;
+    }
+  }
